@@ -1,0 +1,143 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic);
+
+@media (max-width: 509px ){
+
+	}
+@media (min-width: 510px ) and (max-width: 649px ) {
+
+	}
+@media (min-width: 650px ) and (max-width: 767px ) {
+
+	}
+@media (min-width: 768px ) {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:before,
+:after {
+  content: '';
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+.menu-top li:hover {
+	background: #fff;
+}
+	}
+
+
+
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+nav a {
+  text-transform: uppercase;
+  text-align: center;
+  color: #555;	
+}
+nav ul li {
+  position: relative;
+}
+nav ul a {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+nav ul a:before {
+  z-index: -1;
+  top: -105%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: solid 2px red;
+  transition: .2s;
+}
+nav ul a:hover:before {
+  top: 0;
+}
+.menu-top {
+	float: none;
+    text-align: center;
+}
+.menu-top li {
+	float: none;
+    display: inline-block;
+}
+#block_id {
+	display: block;
+	font-family: "Didact Gothic" ,sans-serif ;
+	width: 230px;
+	height: 100px;
+	font-size: 18px; 
+	box-sizing: border-box;
+	
+}
+#block_id ul {
+	position: relative;
+	left: 40%;
+	text-align: center;
+}
+#block_id ul li{
+	margin: 0 auto;	
+	padding-top: 5px;
+	list-style-type: none;
+}
+#block_id ul li i{
+	height: 14px;
+    padding: 7px 1px 1px 20px;
+}
+.nav_menu {
+	border-top: solid 4px red;
+	position: relative;
+}
+.header {
+	display: block;
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+.social-block {
+	display: block;
+	width: 33%;
+	height: 100px;
+	float: left;
+	padding-top: 5px;
+}
+.logo-block {
+	display: block;
+	width: 34%;
+	height: 100px;
+	float: left;
+	text-align: center;
+}
+.contact-block {
+	display: block;
+	width: 33%;
+	height: 100px;
+	float: left;
+	
+}
+.slider-block {
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+.language-block{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+.language-block img{
+	width: 35px;
+	height: 35px;
+}
+.social-icon {
+	width: 100%;
+	height: 50px;
+	padding-top: 5px;
+}
